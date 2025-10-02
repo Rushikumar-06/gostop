@@ -3,8 +3,8 @@ import { Camera } from "lucide-react";
 
 const HeroGallery = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-4 gap-2  overflow-hidden  ">
-      <div className="lg:col-span-2 rounded-2xl overflow-hidden relative">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 overflow-hidden">
+      <div className="sm:col-span-2 lg:col-span-2 rounded-2xl overflow-hidden relative">
         <Image
           src="/images/hero-1.webp"
           alt="goSTOPS HSR Layout exterior"
@@ -14,7 +14,7 @@ const HeroGallery = () => {
         />
       </div>
 
-      <div className="grid grid-cols-2 gap-2 rounded-2xlgap-2 col-span-2">
+      <div className="grid grid-cols-2 gap-2 sm:col-span-2">
         <div className=" ">
           <Image
             src="/images/hero-2.webp"

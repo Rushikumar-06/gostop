@@ -3,15 +3,15 @@ import { Briefcase, Zap } from "lucide-react";
 const HostelInfo = () => {
   return (
     <div className="mt-6">
-      <div className="flex flex-row items-center justify-between">
-        <div>
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+        <div className="w-full md:w-auto">
           <h1 className="text-4xl font-bold">Bengaluru, HSR Silk Board</h1>
           <p className="text-gray-500 mt-2">
             754/L-185, HSR Layout, Sector 6, behind Silkboard bus stand, Outer
             Ring road, Bengaluru - 560102
           </p>
 
-          <div className="flex space-x-4 mt-4">
+          <div className="flex flex-wrap gap-2 mt-4">
             <div className="flex items-center text-sm bg-purple-100 text-purple-700 px-3 py-1.5 rounded-lg">
               <Briefcase size={16} className="mr-2" />
               Booked by 200+ this week
@@ -22,13 +22,13 @@ const HostelInfo = () => {
             </div>
           </div>
         </div>
-        <div>
-          <div className="flex flex-col items-end mb-4">
+        <div className="w-full md:w-auto">
+          <div className="flex flex-col items-start md:items-end mb-4">
             <p className="text-sm text-gray-500">Starting from</p>
             <p className="text-3xl font-bold">₹525.96</p>
           </div>
 
-          <button className="w-full  text-white font-bold py-3 rounded-lg bg-[#ff2a5f]">
+          <button className="w-full text-white font-bold py-3 rounded-lg bg-[#ff2a5f]">
             Select Room
           </button>
         </div>
