@@ -23,7 +23,7 @@ export default function HomePage() {
           <Faq/>
           </div>
           <div className="hidden md:block md:col-span-4">
-            <div className="sticky top-[50px] pt-[85px] ">
+            <div className="sticky top-[50px] pt-[85px]">
               <BookingCard/></div>
             
           </div>
