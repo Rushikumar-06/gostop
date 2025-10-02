@@ -11,7 +11,7 @@ export default function HomePage() {
   return (
     <div className="container mx-auto px-6 py-8">
       
-        <div className="ml-15 mr-15">
+        <div className="md:ml-15 md:mr-15">
           <HeroGallery />
           <HostelInfo />
           <div className="md:grid md:grid-cols-12 gap-x-9 px-[16px] md:px-[32px] lg:px-[48px] xl:px-[64px] xxl:px-[112px]">

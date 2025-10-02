@@ -14,7 +14,7 @@ const HeroGallery = () => {
         />
       </div>
 
-      <div className="grid grid-cols-2 gap-2 sm:col-span-2">
+      <div className="hidden md:grid grid-cols-2 gap-2 sm:col-span-2">
         <div className=" ">
           <Image
             src="/images/hero-2.webp"
