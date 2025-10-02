@@ -36,9 +36,9 @@ const HostelInfo = () => {
 
       <p className="mt-6 text-gray-600">
         Nestled in HSR layout near Silk Board junction, goSTOPS Bengaluru HSR
-        offers convenient access to Bengaluru's tech parks, dining, shopping,
+        offers convenient access to Bengaluru&apos;s tech parks, dining, shopping,
         and nightlife, making it a perfect spot for explorers looking to
-        experience the city's dynamic culture and modern vibes.
+        experience the city&apos;s dynamic culture and modern vibes.
       </p>
     </div>
   );

@@ -6,7 +6,7 @@ const Header = () => {
     <div className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         <div className="flex items-center justify-between w-full md:w-auto space-x-8">
-         <div><a href="https://gostops.com/stay/Bengaluru/bengalurusb-hostel?checkin=2025-10-29&checkout=2025-10-30 " target="_blank"><img src="https://gostops.s3.amazonaws.com/static/src/img/gostops-logo.png" /></a></div>
+         <div><a href="https://gostops.com/stay/Bengaluru/bengalurusb-hostel?checkin=2025-10-29&checkout=2025-10-30 " target="_blank"><img src="https://gostops.s3.amazonaws.com/static/src/img/gostops-logo.png" alt="goSTOPS logo" /></a></div>
           <nav className="hidden  md:flex justify-between w-full space-x-6 text-sm font-medium text-gray-600">
             <a href="https://gostops.com/stay/Bengaluru/bengalurusb-hostel?checkin=2025-10-29&checkout=2025-10-30 " target="_blank" className=" flex items-center">Destinations <ChevronDown size={16} className="ml-1" /></a>
             <a  href="https://gostops.com/stay/Bengaluru/bengalurusb-hostel?checkin=2025-10-29&checkout=2025-10-30 " target="_blank" className="">Workation</a>

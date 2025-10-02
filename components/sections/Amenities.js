@@ -20,7 +20,7 @@ const AmenityItem = ({ icon: Icon, text }) => (
 const Amenities = () => {
   return (
     <div className="mt-10">
-      <h2 className="text-3xl font-bold mb-6">Amenities you'll get</h2>
+      <h2 className="text-3xl font-bold mb-6">Amenities you&apos;ll get</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-6 text-sm text-gray-500 mt-5">
         <AmenityItem icon={Tv} text="24/7 Front Desk" />
         <AmenityItem icon={Wind} text="AC" />
